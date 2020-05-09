@@ -1,0 +1,26 @@
+{
+  "name": "cr8t",
+  "version": "1.0.0",
+  "description": "This is a simple CLI tool that scaffolds your app easily",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "cr8t": "./index.js"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/mustaphee/cr8t.git"
+  },
+  "keywords": [],
+  "author": "Yusuff Mustapha",
+  "license": "MIT",
+  "homepage": "https://github.com/mustaphee/cr8t/#readme",
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.4"
+  }
+}
